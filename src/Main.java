@@ -8,9 +8,11 @@ public class Main {
         System.out.println("ФИО сотрудника - " + fullName);
 
         System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullName.toUpperCase());//Задание2
-        if (fullName.contains("ё")) {
-            System.out.println(fullName.replace('ё', 'е')); //Задание 3
-            throw new RuntimeException("Буква ё недопустима, меняем на е");
-        }
+        System.out.println(fullName.replace('ё', 'е')); //Задание 3
+
+//        if (fullName.contains("ё")) {
+//            System.out.println(fullName.replace('ё', 'е')); //Задание 3 с ипользованием contains и exception?
+//            throw new RuntimeException("Буква ё недопустима, меняем на е");
+//        }
     }
 }
